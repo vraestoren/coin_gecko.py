@@ -3,8 +3,9 @@ Web-API for [coingecko.com](https://www.coingecko.com) website that provides a f
 
 ## Example
 ```python
-import coin_gecko
-coin_gecko = coin_gecko.CoinGecko()
+from coin_gecko import CoinGecko
+
+coin_gecko = CoinGecko()
 global_crypto_data = coin_gecko.get_global_crypto_data()
 print(global_crypto_data)
 ```
